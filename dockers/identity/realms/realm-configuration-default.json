@@ -65,104 +65,86 @@
   "users": [
     {
       "username": "tuonglevan",
-      "enabled": true,
+      "enabled": false,
       "email": "tuonglevan@gmail.com",
       "firstName": "Tuong",
       "lastName": "Le Van",
       "emailVerified": true,
-      "credentials": [
-        {
-          "type": "password",
-          "value": "password"
-        }
-      ],
       "realmRoles": [
         "System admin"
+      ],
+      "requiredActions": [
+        "UPDATE_PASSWORD"
       ]
     },
     {
       "username": "tridominh",
-      "enabled": true,
+      "enabled": false,
       "email": "tridominh@gmail.com",
       "firstName": "Tri",
       "lastName": "Do Minh",
       "emailVerified": true,
-      "credentials": [
-        {
-          "type": "password",
-          "value": "password"
-        }
-      ],
       "realmRoles": [
         "System admin"
+      ],
+      "requiredActions": [
+        "UPDATE_PASSWORD"
       ]
     },
     {
       "username": "hainguyenvan",
-      "enabled": true,
+      "enabled": false,
       "email": "hainguyenvan@gmail.com",
       "firstName": "Hai",
       "lastName": "Nguyen Van",
       "emailVerified": true,
-      "credentials": [
-        {
-          "type": "password",
-          "value": "password"
-        }
-      ],
       "realmRoles": [
         "System admin"
+      ],
+      "requiredActions": [
+        "UPDATE_PASSWORD"
       ]
     },
     {
       "username": "minhledang",
-      "enabled": true,
+      "enabled": false,
       "email": "minhledang@gmail.com",
       "firstName": "Minh",
       "lastName": "Le Dang",
       "emailVerified": true,
-      "credentials": [
-        {
-          "type": "password",
-          "value": "password"
-        }
-      ],
       "realmRoles": [
         "System admin"
+      ],
+      "requiredActions": [
+        "UPDATE_PASSWORD"
       ]
     },
     {
       "username": "phucnguyenhoang",
-      "enabled": true,
+      "enabled": false,
       "email": "phucnguyenhoang@gmail.com",
       "firstName": "Phuc",
       "lastName": "Nguyen Hoang",
       "emailVerified": true,
-      "credentials": [
-        {
-          "type": "password",
-          "value": "password"
-        }
-      ],
       "realmRoles": [
         "System admin"
+      ],
+      "requiredActions": [
+        "UPDATE_PASSWORD"
       ]
     },
     {
       "username": "phuctranvinh",
-      "enabled": true,
+      "enabled": false,
       "email": "phuctranvinh@gmail.com",
       "firstName": "Phuc",
       "lastName": "Tran Vinh",
       "emailVerified": true,
-      "credentials": [
-        {
-          "type": "password",
-          "value": "password"
-        }
-      ],
       "realmRoles": [
         "System admin"
+      ],
+      "requiredActions": [
+        "UPDATE_PASSWORD"
       ]
     },
     {
