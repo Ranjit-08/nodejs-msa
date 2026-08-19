@@ -45,12 +45,15 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Build and Tag Docker Image
+        env:
+          DOCKERFILE_PATH: ${{ inputs.dockerfilePath }}
+          BUILD_CONTEXT: ${{ inputs.buildContext }}
         run: |
           docker build \
-            --file ${{ inputs.dockerfilePath }} \
+            --file $DOCKERFILE_PATH \
             --target production \
             --tag ${{ env.FULL_IMAGE_NAME }} \
-            ${{ inputs.buildContext }}
+            $BUILD_CONTEXT
 
       - name: Push Docker Image
         run: docker push ${{ env.FULL_IMAGE_NAME }}
